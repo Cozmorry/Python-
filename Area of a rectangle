@@ -1,0 +1,8 @@
+def rect(*args):
+   a= int(input ("Enter length "))
+   b= int(input ("Enter width "))
+   length= a
+   width= b
+   area = length*width
+   return area
+print (rect())
